@@ -44,7 +44,7 @@ public class RegistroSolicitudTxt {
 
 
 
-        String logToSave = registroDTO.getTipoDocumentoC() + "\t" + codigoTransaccion;
+        String logToSave = registroDTO.getTipoDocumentoC() + "\t" + codigoTransaccion + "\n";
 
         if (codigoTransaccion.equals("00")){
             String path = appProperties.getResponsesLogsPath() + appProperties.getPrefixLogOk() + currentDate + ".txt";
