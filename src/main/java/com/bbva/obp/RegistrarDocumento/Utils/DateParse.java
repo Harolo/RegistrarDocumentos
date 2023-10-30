@@ -1,0 +1,39 @@
+package com.bbva.obp.RegistrarDocumento.Utils;
+
+
+import org.springframework.stereotype.Component;
+
+import javax.xml.datatype.DatatypeConfigurationException;
+import javax.xml.datatype.DatatypeFactory;
+import javax.xml.datatype.XMLGregorianCalendar;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+
+@Component
+public class DateParse {
+
+    private static final String DATE_FORMAT = "dd/MM/yyyy";
+
+    public static XMLGregorianCalendar createGregorianCalendar(String dateStr)  {
+        if (dateStr.equals("")) {
+            return null;
+        }
+        SimpleDateFormat dateFormat = new SimpleDateFormat( DateParse.DATE_FORMAT );
+
+        try {
+            dateFormat.parse(dateStr);
+            String[] date = dateStr.split("/");
+            XMLGregorianCalendar xCal = DatatypeFactory.newInstance()
+                    .newXMLGregorianCalendar();
+            xCal.setYear(Integer.parseInt(date[2]));
+            xCal.setMonth(Integer.parseInt(date[1]));
+            xCal.setDay(Integer.parseInt(date[0]));
+
+            return xCal;
+        } catch (ParseException | DatatypeConfigurationException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+}

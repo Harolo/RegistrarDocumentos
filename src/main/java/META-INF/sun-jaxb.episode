@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v2.3.7 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2023.10.04 a las 10:46:53 PM COT 
+
+  -->
+      
+    <bindings xmlns:tns="http://servicios.webservices.bonospensionales.minhacienda.gov.co/schema/BeneficiariosDTO" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.bbva.obp.RegistrarDocumento.wsdl"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:BeneficiariosDTO">
+                  
+            <class ref="com.bbva.obp.RegistrarDocumento.wsdl.BeneficiariosDTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TipoTipoBeneficiario">
+                  
+            <typesafeEnumClass ref="com.bbva.obp.RegistrarDocumento.wsdl.TipoTipoBeneficiario"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TipoTipoDocumento">
+                  
+            <typesafeEnumClass ref="com.bbva.obp.RegistrarDocumento.wsdl.TipoTipoDocumento"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TipoGenero">
+                  
+            <typesafeEnumClass ref="com.bbva.obp.RegistrarDocumento.wsdl.TipoGenero"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TipoIndEstudiaAct">
+                  
+            <typesafeEnumClass ref="com.bbva.obp.RegistrarDocumento.wsdl.TipoIndEstudiaAct"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TipoIndDependeEco">
+                  
+            <typesafeEnumClass ref="com.bbva.obp.RegistrarDocumento.wsdl.TipoIndDependeEco"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TipoEstadoExpedicion">
+                  
+            <typesafeEnumClass ref="com.bbva.obp.RegistrarDocumento.wsdl.TipoEstadoExpedicion"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TipoEstadoActual">
+                  
+            <typesafeEnumClass ref="com.bbva.obp.RegistrarDocumento.wsdl.TipoEstadoActual"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TemporBeneficiario">
+                  
+            <typesafeEnumClass ref="com.bbva.obp.RegistrarDocumento.wsdl.TemporBeneficiario"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://servicios.webservices.bonospensionales.minhacienda.gov.co/schema/NovedadRentaDTO" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.bbva.obp.RegistrarDocumento.wsdl"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:NovedadRentaDTO">
+                  
+            <class ref="com.bbva.obp.RegistrarDocumento.wsdl.NovedadRentaDTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TipoNovedad">
+                  
+            <typesafeEnumClass ref="com.bbva.obp.RegistrarDocumento.wsdl.TipoNovedad"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TipoTipoDocumento">
+                  
+            <typesafeEnumClass ref="com.bbva.obp.RegistrarDocumento.wsdl.TipoTipoDocumento2"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://servicios.webservices.bonospensionales.minhacienda.gov.co/schema/SolicitudRenta" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.bbva.obp.RegistrarDocumento.wsdl"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:SolicitudRenta">
+                  
+            <class ref="com.bbva.obp.RegistrarDocumento.wsdl.SolicitudRenta"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://servicios.webservices.bonospensionales.minhacienda.gov.co/schema/CausanteDTO" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.bbva.obp.RegistrarDocumento.wsdl"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:CausanteDTO">
+                  
+            <class ref="com.bbva.obp.RegistrarDocumento.wsdl.CausanteDTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TipoIdentificacion">
+                  
+            <typesafeEnumClass ref="com.bbva.obp.RegistrarDocumento.wsdl.TipoIdentificacion"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TipoGenero">
+                  
+            <typesafeEnumClass ref="com.bbva.obp.RegistrarDocumento.wsdl.TipoGenero2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TipoEstadoExpedicion">
+                  
+            <typesafeEnumClass ref="com.bbva.obp.RegistrarDocumento.wsdl.TipoEstadoExpedicion2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TipoEstadoActual">
+                  
+            <typesafeEnumClass ref="com.bbva.obp.RegistrarDocumento.wsdl.TipoEstadoActual2"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://servicios.webservices.bonospensionales.minhacienda.gov.co/schema/RentaDTO" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.bbva.obp.RegistrarDocumento.wsdl"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:RentaDTO">
+                  
+            <class ref="com.bbva.obp.RegistrarDocumento.wsdl.RentaDTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TipoOrigenPrestacion">
+                  
+            <typesafeEnumClass ref="com.bbva.obp.RegistrarDocumento.wsdl.TipoOrigenPrestacion"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TipoModalidadPrestacion">
+                  
+            <typesafeEnumClass ref="com.bbva.obp.RegistrarDocumento.wsdl.TipoModalidadPrestacion"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://servicios.webservices.bonospensionales.minhacienda.gov.co/schema/RegistroDocumentos" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.bbva.obp.RegistrarDocumento.wsdl"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:RegistroDocumentos">
+                  
+            <class ref="com.bbva.obp.RegistrarDocumento.wsdl.RegistroDocumentos"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TipoDocumento">
+                  
+            <typesafeEnumClass ref="com.bbva.obp.RegistrarDocumento.wsdl.TipoDocumento"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TipoIdentificacionC">
+                  
+            <typesafeEnumClass ref="com.bbva.obp.RegistrarDocumento.wsdl.TipoIdentificacionC"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TipoIdentificacionB">
+                  
+            <typesafeEnumClass ref="com.bbva.obp.RegistrarDocumento.wsdl.TipoIdentificacionB"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://servicios.webservices.bonospensionales.minhacienda.gov.co/schema/RegistroNovedad" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.bbva.obp.RegistrarDocumento.wsdl"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:RegistroNovedad">
+                  
+            <class ref="com.bbva.obp.RegistrarDocumento.wsdl.RegistroNovedad"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TipoIdentificacionCausante">
+                  
+            <typesafeEnumClass ref="com.bbva.obp.RegistrarDocumento.wsdl.TipoIdentificacionCausante"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://servicioaseguradora.servicios.webservices.bonospensionales.minhacienda.gov.co/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.bbva.obp.RegistrarDocumento.wsdl"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:ExcepcionBonosPensionales">
+                  
+            <class ref="com.bbva.obp.RegistrarDocumento.wsdl.ExcepcionBonosPensionales"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://servicios.webservices.bonospensionales.minhacienda.gov.co/schema/ResultadoDTO" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.bbva.obp.RegistrarDocumento.wsdl"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:ResultadoDTO">
+                  
+            <class ref="com.bbva.obp.RegistrarDocumento.wsdl.ResultadoDTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TipoCodigoTransaccionE">
+                  
+            <class ref="com.bbva.obp.RegistrarDocumento.wsdl.TipoCodigoTransaccionE"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
